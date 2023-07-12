@@ -1,4 +1,10 @@
-FROM golang:1.17.1-alpine as builder
+FROM alpine:3.18
+
+RUN apk add --no-cache ca-certificates
+
+ENV PATH /usr/local/go/bin:$PATH
+
+ENV GOLANG_VERSION 1.20.6
 
 WORKDIR /build
 COPY ../../go.mod ../../go.sum ./
