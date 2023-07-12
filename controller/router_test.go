@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/koga456/sample-api/test"
+	"github.com/pinpointdev90/go-crud-api/tree/main/test"
 )
 
 var mux *http.ServeMux

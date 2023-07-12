@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/koga456/sample-api/controller"
-	"github.com/koga456/sample-api/model/repository"
+	"github.com/pinpointdev90/go-crud-api/tree/main/controller"
+	"github.com/pinpointdev90/go-crud-api/tree/main/model/repository"
 )
 
 var tr = repository.NewTodoRepository()

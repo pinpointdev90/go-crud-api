@@ -1,5 +1,5 @@
 format:
-	@find . -print | grep --regex '.*\.go' | xargs goimports -w -local "github.com/koga456/sample-api"
+	@find . -print | grep --regex '.*\.go' | xargs goimports -w -local "github.com/pinpointdev90/go-crud-api/tree/main"
 verify:
 	@staticcheck ./... && go vet ./...
 unit-test:

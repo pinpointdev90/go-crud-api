@@ -1,4 +1,4 @@
-module github.com/koga456/sample-api
+module github.com/pinpointdev90/go-crud-api/tree/main
 
 go 1.17
 

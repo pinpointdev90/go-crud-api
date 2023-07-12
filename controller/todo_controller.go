@@ -6,9 +6,9 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/koga456/sample-api/controller/dto"
-	"github.com/koga456/sample-api/model/entity"
-	"github.com/koga456/sample-api/model/repository"
+	"github.com/pinpointdev90/go-crud-api/tree/main/controller/dto"
+	"github.com/pinpointdev90/go-crud-api/tree/main/model/entity"
+	"github.com/pinpointdev90/go-crud-api/tree/main/model/repository"
 )
 
 type TodoController interface {

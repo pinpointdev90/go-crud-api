@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/koga456/sample-api/controller/dto"
-	"github.com/koga456/sample-api/test"
+	"github.com/pinpointdev90/go-crud-api/tree/main/controller/dto"
+	"github.com/pinpointdev90/go-crud-api/tree/main/test"
 )
 
 func TestGetTodos_NotFound(t *testing.T) {
